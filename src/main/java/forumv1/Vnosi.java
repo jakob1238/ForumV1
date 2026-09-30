@@ -194,7 +194,7 @@ public class Vnosi extends javax.swing.JFrame {
     private void btnRegistracijaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistracijaActionPerformed
         // TODO add your handling code here:
         try{
-        PrintWriter pw=new PrintWriter(new FileWriter("D:\\barbara\\RAC3\\Up.txt",true));
+        PrintWriter pw=new PrintWriter(new FileWriter("C:\\Forumv1\\Up.txt",true));
         pw.println(txtUp.getText());
         pw.println(txtMail.getText());
         pw.println(txtGeslo.getText());
@@ -209,7 +209,7 @@ public class Vnosi extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 try{
-BufferedReader br=new BufferedReader(new FileReader("D:\\barbara\\RAC3\\Up.txt"));
+BufferedReader br=new BufferedReader(new FileReader("C:\\Forumv1\\Up.txt"));
 String uporabnik=txtUp1.getText();
 String up=br.readLine();
 while (up!=null)
